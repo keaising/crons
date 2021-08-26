@@ -12,6 +12,8 @@ github.com/keaising/go-twitter v0.0.0-20210826184654-98721b21411d h1:EKc24QYwxMU
 github.com/keaising/go-twitter v0.0.0-20210826184654-98721b21411d/go.mod h1:iJX/pG4OLw6ma8l2gM5q5jPb9i+DazYOmzwHLMCPu/4=
 github.com/keaising/go-twitter v0.0.0-20210826185442-b64421199eae h1:tKMcnmk+IjsqimeV+3MRTHr4F0dhpq8AwxeZeYuwnoE=
 github.com/keaising/go-twitter v0.0.0-20210826185442-b64421199eae/go.mod h1:iJX/pG4OLw6ma8l2gM5q5jPb9i+DazYOmzwHLMCPu/4=
+github.com/keaising/go-twitter v0.0.0-20210826192806-3dddda43a55a h1:PUT8AHupqPPTk2Zbm3U4xQ8sXrOQ5HHbwiOjZBeMaBQ=
+github.com/keaising/go-twitter v0.0.0-20210826192806-3dddda43a55a/go.mod h1:iJX/pG4OLw6ma8l2gM5q5jPb9i+DazYOmzwHLMCPu/4=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=

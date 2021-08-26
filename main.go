@@ -15,15 +15,8 @@ func main() {
 	// Twitter client
 	client := twitter.NewClient(httpClient)
 	var name = "Taiga"
-	var url = "www.bing.com"
 	u, _, err := client.Accounts.UpdateProfile(&twitter.AccountUpdateProfileParams{
-		Name:             &name,
-		URL:              &url,
-		Location:         &name,
-		ProfileLinkColor: &name,
-		Description:      &name,
-		IncludeEntities:  twitter.Bool(false),
-		SkipStatus:       twitter.Bool(true),
+		Name: &name,
 	})
 	if err != nil {
 		log.Println("update profile failed", err)
