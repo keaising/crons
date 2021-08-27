@@ -1,0 +1,22 @@
+on:
+  schedule:
+    - cron:  '* * * * *'
+
+jobs:
+  run:
+    name: run
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Go 1.x
+        uses: actions/setup-go@v2
+        with:
+          go-version: 1.16
+
+      - name: Run
+        run: go run main.go
+        env:
+          PREFIX: ${{ secrets.PREFIX }}
+          CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
+          CONSUMER_SECRET : ${{ secrets.CONSUMER_SECRET }}
+          TOKEN : ${{ secrets.TOKEN }}
+          TOKEN_SECRET: ${{ secrets.TOKEN_SECRET }}
