@@ -3,7 +3,7 @@ on:
     branches: 
       - master
   schedule:
-    - cron:  '* * * * *'
+    - cron: '* * * * *'
 
 jobs:
   run:
