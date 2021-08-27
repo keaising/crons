@@ -21,9 +21,9 @@ jobs:
       - name: Run
         run: go run ./main.go
         env:
-          PREFIX: ${{ secrets.PREFIX }}
-          CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
-          CONSUMER_SECRET : ${{ secrets.CONSUMER_SECRET }}
-          TOKEN : ${{ secrets.TOKEN }}
-          TOKEN_SECRET: ${{ secrets.TOKEN_SECRET }}
+          PREFIX: ${{ env.PREFIX }}
+          CONSUMER_KEY: ${{ env.CONSUMER_KEY }}
+          CONSUMER_SECRET : ${{ env.CONSUMER_SECRET }}
+          TOKEN : ${{ env.TOKEN }}
+          TOKEN_SECRET: ${{ env.TOKEN_SECRET }}
 
