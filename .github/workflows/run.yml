@@ -16,7 +16,7 @@ jobs:
           go-version: 1.16
 
       - name: Run
-        run: go run main.go
+        run: go run ./main.go
         env:
           PREFIX: ${{ secrets.PREFIX }}
           CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
