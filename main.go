@@ -29,7 +29,7 @@ func main() {
 		log.Println("update profile failed", err)
 		return
 	}
-	// log.Println(u.Name)
+	log.Println(u.Name)
 	// log.Println(u.Description)
 	// log.Println(u.Location)
 	// log.Println(u.Status.FullText)
