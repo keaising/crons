@@ -18,7 +18,7 @@ func main() {
 	client := twitter.NewClient(httpClient)
 
 	loc, _ := time.LoadLocation("Asia/Shanghai")
-	days := int(time.Now().In(loc).Sub(time.Unix(1629003600, 0)).Hours() / 24)
+	days := int(time.Now().In(loc).Sub(time.Unix(1657299600, 0)).Hours() / 24)
 
 	var name = fmt.Sprintf("%s%v", os.Getenv("PREFIX"), days)
 
